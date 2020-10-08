@@ -1,4 +1,4 @@
-package com.example.proteintracker;
+package com.example.progmob2020;
 
 import org.junit.Test;
 

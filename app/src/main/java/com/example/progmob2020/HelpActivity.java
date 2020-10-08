@@ -1,9 +1,11 @@
-package com.example.proteintracker;
+package com.example.progmob2020;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.progmob2020.R;
 
 public class HelpActivity extends AppCompatActivity {
 

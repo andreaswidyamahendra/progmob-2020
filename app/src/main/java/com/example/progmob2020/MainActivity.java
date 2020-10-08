@@ -1,14 +1,18 @@
-package com.example.proteintracker;
+package com.example.progmob2020;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.progmob2020.Pertemuan2.CardViewTestActivity;
+import com.example.progmob2020.Pertemuan2.ListActivity;
+import com.example.progmob2020.Pertemuan2.RecycleActivity;
+import com.example.progmob2020.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +50,34 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TrackerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //Pertemuan 2
+        Button btnList = (Button)findViewById(R.id.buttonListView);
+        Button btnRecycler = (Button)findViewById(R.id.buttonRecyclerView);
+        Button btnCard = (Button)findViewById(R.id.buttonCard);
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnRecycler.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RecycleActivity.class);
+                startActivity(intent);
+            }
+        }));
+
+        btnCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CardViewTestActivity.class);
                 startActivity(intent);
             }
         });
