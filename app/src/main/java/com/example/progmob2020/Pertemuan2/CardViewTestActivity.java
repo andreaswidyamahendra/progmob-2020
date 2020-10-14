@@ -50,6 +50,7 @@ public class CardViewTestActivity extends AppCompatActivity {
         mahasiswaRecyclerAdapter = new MahasiswaRecyclerAdapter(CardViewTestActivity.this);
         mahasiswaRecyclerAdapter.setMahasiswaList(mahasiswaList);
 
+
         //cv.setLayoutManager
 
         rv.setLayoutManager(new LinearLayoutManager(CardViewTestActivity.this));

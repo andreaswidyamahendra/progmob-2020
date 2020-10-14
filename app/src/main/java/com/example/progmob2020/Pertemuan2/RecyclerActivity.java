@@ -13,7 +13,7 @@ import com.example.progmob2020.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecycleActivity extends AppCompatActivity {
+public class RecyclerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +39,10 @@ public class RecycleActivity extends AppCompatActivity {
         mahasiswaList.add(m4);
         mahasiswaList.add(m5);
 
-        mahasiswaRecyclerAdapter = new MahasiswaRecyclerAdapter(RecycleActivity.this);
+        mahasiswaRecyclerAdapter = new MahasiswaRecyclerAdapter(RecyclerActivity.this);
         mahasiswaRecyclerAdapter.setMahasiswaList(mahasiswaList);
 
-        rv.setLayoutManager(new LinearLayoutManager(RecycleActivity.this));
+        rv.setLayoutManager(new LinearLayoutManager(RecyclerActivity.this));
         rv.setAdapter(mahasiswaRecyclerAdapter);
     }
 }

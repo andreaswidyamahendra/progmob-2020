@@ -11,8 +11,8 @@ import android.widget.TextView;
 
 import com.example.progmob2020.Pertemuan2.CardViewTestActivity;
 import com.example.progmob2020.Pertemuan2.ListActivity;
-import com.example.progmob2020.Pertemuan2.RecycleActivity;
-import com.example.progmob2020.R;
+import com.example.progmob2020.Pertemuan2.RecyclerActivity;
+import com.example.progmob2020.Pertemuan4.DebuggingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         btnRecycler.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RecycleActivity.class);
+                Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
                 startActivity(intent);
             }
         }));
@@ -82,5 +82,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Debugging
+        Button btnTemu = (Button)findViewById(R.id.btnPertemuan);
+
+        btnTemu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (MainActivity.this, DebuggingActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
