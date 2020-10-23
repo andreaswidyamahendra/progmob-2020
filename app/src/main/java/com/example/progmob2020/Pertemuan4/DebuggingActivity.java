@@ -1,20 +1,20 @@
 package com.example.progmob2020.Pertemuan4;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+        import androidx.appcompat.app.AppCompatActivity;
+        import androidx.recyclerview.widget.LinearLayoutManager;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
-import java.util.ArrayList;
-import java.util.List;
+        import java.util.ArrayList;
+        import java.util.List;
 
-import com.example.progmob2020.Adapter.DebuggingRecyclerAdapter;
-import com.example.progmob2020.Adapter.MahasiswaRecyclerAdapter;
-import com.example.progmob2020.Model.Mahasiswa;
-import com.example.progmob2020.Model.MahasiswaDebugging;
-import com.example.progmob2020.Pertemuan2.RecyclerActivity;
-import com.example.progmob2020.R;
+        import com.example.progmob2020.Adapter.DebuggingRecyclerAdapter;
+        import com.example.progmob2020.Adapter.MahasiswaRecyclerAdapter;
+        import com.example.progmob2020.Model.Mahasiswa;
+        import com.example.progmob2020.Model.MahasiswaDebugging;
+        import com.example.progmob2020.Pertemuan2.RecyclerActivity;
+        import com.example.progmob2020.R;
 
 public class DebuggingActivity extends AppCompatActivity {
 
