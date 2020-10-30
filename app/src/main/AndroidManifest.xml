@@ -12,19 +12,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CRUD.MahasiswaUpdateActivity"></activity>
-        <activity android:name=".CRUD.MahasiswaDeleteActivity" />
-        <activity android:name=".CRUD.MahasiswaGetAllActivity" />
-        <activity android:name=".CRUD.MahasiswaAddActivity" />
+        <activity android:name=".Pertemuan6.PrefActivity"></activity>
+        <activity android:name=".CRUD.MatakuliahDeleteActivity" />
+        <activity android:name=".CRUD.MatakuliahUpdateActivity" />
+        <activity android:name=".CRUD.MatakuliahAddActivity" />
+        <activity android:name=".CRUD.MatakuliahGetAllActivity" />
+        <activity android:name=".CRUD.MainMatkulActivity" />
+        <activity android:name=".CRUD.DosenDeleteActivity" />
+        <activity android:name=".CRUD.DosenUpdateActivity" />
+        <activity android:name=".CRUD.MainDsnActivity" />
+        <activity android:name=".CRUD.DosenAddActivity" />
+        <activity android:name=".CRUD.DosenGetAllActivity" />
+        <activity android:name=".UTS.HomeActivity" />
+        <activity android:name=".UTS.LoginActivity" />
         <activity
-            android:name=".CRUD.MainMhsActivity"
-            android:label="Menu CRUD Mahasiswa">
+            android:name=".UTS.SplashScreenActivity"
+            android:label="UTS PROGMOB2020">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CRUD.MahasiswaUpdateActivity" />
+        <activity android:name=".CRUD.MahasiswaDeleteActivity" />
+        <activity android:name=".CRUD.MahasiswaGetAllActivity" />
+        <activity android:name=".CRUD.MahasiswaAddActivity" />
+        <activity android:name=".CRUD.MainMhsActivity" />
         <activity android:name=".Pertemuan4.DebuggingActivity" />
         <activity android:name=".Pertemuan2.CardViewTestActivity" />
         <activity android:name=".Pertemuan2.RecyclerActivity" />

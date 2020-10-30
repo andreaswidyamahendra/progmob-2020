@@ -7,7 +7,7 @@
     tools:context="com.example.progmob2020.Pertemuan2.RecyclerActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvLatihan"
+        android:id="@+id/rvGetMhsAll"
         android:layout_width="409dp"
         android:layout_height="729dp"
         app:layout_constraintBottom_toBottomOf="parent"

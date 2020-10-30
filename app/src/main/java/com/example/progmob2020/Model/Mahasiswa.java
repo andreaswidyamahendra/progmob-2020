@@ -7,9 +7,9 @@ import retrofit2.http.Field;
 
 public class Mahasiswa {
 
-    @SerializedName("email")
+    @SerializedName("id")
     @Expose
-    private  String id;
+    private String id;
 
     @SerializedName("nama")
     @Expose
@@ -127,4 +127,5 @@ public class Mahasiswa {
     public void setNim_progmob(String nim_progmob) {
         this.nim_progmob = nim_progmob;
     }
+
 }
